@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>проект</title>
+    <style>
+        .flex{
+        display:flex;
+        min-height:1000px
+        }
+        .container{
+        display:flex;
+        flex-direction:column;
+        min-height:100%;
+        }
+		.head{
+		color: #22BF61;
+	    background-position-y: 40%;
+        background-position-x: 40%;
+		flex-shrink: 0;
+		background-size: cover;
+        display: block;
+        height: 200px;
+        background: url(https://cdn.discordapp.com/attachments/664877677991297045/806962427228717146/1526062354_shapka-sayta-tehnologii-563642321.png)  center bottom;
+        text-align: center;
+        width: 1330px;
+		}
+		.body{
+		background: url(https://cdn.discordapp.com/attachments/664877677991297045/806963058085331014/images.png);
+		margin:0px;
+		}
+	    .main{
+	    justify-content: center;
+	    flex-grow:1;
+	    border:1px solid black;
+        background: url(https://thumb.tildacdn.com/tild6231-6234-4365-b637-653932626636/-/resize/824x/-/format/webp/texture-1668079_1920.jpg);
+        flex-grow:1;
+        repeat: no-repeat;
+	    }
+	    .main {
+	    font-family: Century Gothic;
+	    display: block;
+	    max-width:70%;
+	    margin:0 auto;
+	    min-height: 900px
+	    }
+	    .foot{
+	    flex-shrink: 0;
+        height: 200px;
+        background: #19D0FF;
+        margin-right: 10px;
+	    }
+	    .side{
+	    text-align: center;
+	    min-height: 300px;
+	    padding-top: 20px;
+	    position: sticky;
+        z-index: 1;
+        top: 10px;
+        bottom: 100px;
+        right: 0;
+        left: 200px;
+	    border: 2px solid black;
+        flex-basis: 300px;
+        background: #8CCFFF;
+        height: 100%;
+        margin-right: 20px;
+	    }
+	    .body{
+	    }
+	    html, body {height: 100%}
+	    .img1{
+        backdrop-filter: blur(5px);
+	    min-height: 400px;
+	    background-image: url(https://cdn.discordapp.com/attachments/664877677991297045/806940230925942844/001.png);
+	    }
+	    .but{
+	    padding:10px;
+	    border-radius: 3px;
+	    border:0px;
+	    outline: none;
+	    transition: all 1s;
+	    color:white;
+	    background: black;
+	    }
+	    .but:hover{
+	    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 35px red, 0 0 55px red, 0 0 75px white;
+	    }
+	    .theme-dark .main {
+	    background: url(https://cdn.discordapp.com/attachments/664877677991297045/806965464239833148/depositphotos_2619830-stock-photo-leather-texture.png) ;
+	    color: white;
+	    }
+        .theme-dark .foot {
+        background: #1700AB;
+        }
+        .theme-dark .head {
+        background: url(https://cdn.discordapp.com/attachments/664877677991297045/806969102727381092/1561825760_shapka-sayta-informatika-475213412.png);
+        color:#F3FFFF;
+        }
+        .theme-dark .side {
+        background: #3180FF;
+        }
+        .qwe{
+        width:450px
+        }
+        .theme-dark .but{
+        background: white;
+        color:black;
+        }
+        .photo1{
+        height: 250px;
+        width: 300px;
+        }
+        .tin{
+        width: 300px;
+        height: 250px;
+        }
+        .trt{
+        width: 400px;
+        height: 300px;
+        }
+        .rb{
+        width: 300px;
+        height: 250px;
+        }
+        .mcb{
+        width: 300px;
+        height: 250px;
+        }
+        .nkc{
+        width: 400px;
+        height: 350px;
+        }
+        ros{
+        width: 300px;
+        height: 250px;
+        }
+        .about{
+        margin-left: 150px;
+        margin-right: 150px;
+        }
+        .ros{
+        width: 300px;
+        height: 250px;
+        }
+        .rsb{
+        width: 300px;
+        height: 250px;
+        }
+        .rfz{
+        width: 300px;
+        height: 250px;
+        }
+        .uc{
+        width: 300px;
+        height: 250px;
+        }
+        .open{
+        width: 300px;
+        height: 250px;
+        }
+        .gb{
+        width: 300px;
+        height: 250px;
+        }
+        .alp{
+        width: 300px;
+        height: 250px;
+        }
+        .vtb{
+        width: 300px;
+        height: 250px;
+        }
+        .sber{
+        width: 300px;
+        height: 250px;
+        }
+        .q3{
+         width: 300px;
+        height: 250px;
+        }
+        .q2{
+         width: 300px;
+        height: 250px;
+        }
+        .q1{
+         width: 300px;
+        height: 250px;
+        }
+    </style>
+</head>
+    <body class="body theme-dark">
+    <div class="container">
+        <div class="head"><h1>Информационный сайт с рейтином самых <p>устойчивых банков для кредитования.</p></h1></div>
+    <div class="flex">
+    <div class="main">
+    <center>
+    <h2 class="about">
+    Наш проект это сайт с рейтигном самых надежных банков действующих на территории РФ. На самом сайте будут рассмотрены только 15 лучших банков:
+    </h2>
+    <div class="name">
+    <h2>Список банков:
+    </h2>
+    <iframe width="502" height="446" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=B3A29C85041D5351%211455&authkey=%21AIQUksBxXXAS_8o&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+    <p>
+    <img class="q1" src="https://cdn.discordapp.com/attachments/664877677991297045/806610235078475876/unknown.png">
+    <img class="q2" src="https://cdn.discordapp.com/attachments/664877677991297045/806610277687754752/unknown.png">
+    <img class="q3" src="https://cdn.discordapp.com/attachments/664877677991297045/806610357392113704/unknown.png">
+    </p>
+    </div>
+    <div>
+    <h2>
+    15 место
+    </h2>
+    <img class="nkc" src="https://lawecon.ru/wp-content/uploads/2018/03/pochta-bank.jpg">
+    <h2>Почта банк</h2>
+    <h3>
+    Почта Банк — универсальный розничный банк, созданный в 2016 году группой ВТБ и Почтой России на базе Лето Банка.
+    Ключевая цель Почта Банка — повышение доступности финансовых услуг для жителей России. Банк развивает масштабную региональную сеть на базе почтовых отделений, что позволит усилить проникновение базовых банковских услуг на всей территории России.
+    <a href="http://yabs.yandex.ru/count/WiWejI_zO6S2zHK0H2PJNZwb7p2M1WK0PmCn9ziYO000000u109mqEh3iCaIW07XYRXXY068wPB4N901ck-1dSk0W802c06Qxu6TIxW1YgV2zI300LpO0OghuvO1u07kXgWSw06K0OW2XFHoc0A4afGMe0A0txuLs082y0AsWhMIc0Eji1pdRFW4XwNS0OW5XwNS0P05X_dm1Q05lvf3g0NVW3Ym1T-0EBW5qhQ_0S05bvFy2iW5h_xa0hW60ia6GEQCkEzKhMlP1W000D000000gGT9aTp4cEQ81h07W82OBBW7cWJn1xeY2fJinmYDW0W2q0Y4We70hz-eovHuoIZXFyaADJgy8lx4vp-g2n2-CSjTIP4003RDXzphkWK0sGle2uUbt07m2mQ83CBothu1gGpepETTvPBLl-WCemBW3OE0W4293hWUXUjHkEx0pBF4-vtLrckW3i24FTWE1Q4Fy3-04CMJsXl0a13G49AWhr_u4FF__m604VB__mAX4MTcPcPcPkQelfINI4rWFx4IhkjXXA7Evp_m4lWI0u0JCWAe4w6BuzQ7jC2Q5k0JqhQ_0Q0KqhQ_0QWKX_dm1R0KW9R01BWKWEIl0SWK0j0KaDBG5jWKqDNj_mNe58m2q1NGrUt_1TWLmOhsxAEFlFnZyA0Mq92TW0R95j0MmlBUlW615vWNaBFx8QWN2S0Nj0BO5y24FPaOe1WJi1ZDaek11j0O8VWOaFVccyQLcUT9W1cmzBZYqBsHkI2G6G6W6Qe3i1cu6Vy1qXaIUM5YSrzpPN9sPN8lSZKmC2qpw1c0mWFm6O320u4Q__-3pDoyYsmR050Zc8Mh53_9fI7oW19Pk6oHk-2f2nGf6hmPwf00KD1SdO5RHZaaXkHJNkNlrOrpiJf29G54Zv5SPdHR5OaDn_rSx3RFcIxu0FtjOFNW7fVNhqyiZH1D~1?from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%BE%D1%87%D1%82%D0%B0+%D0%B1%D0%B0%D0%BD%D0%BA&etext=2202.RNGMkRalyUqNJEQeyLV3amR3dm1weWxvZ2JzdGl0cGs.1bcc4b853109b168b124bb373479418e72ceb348&baobab_event_id=kkyd9uk5gz">ссылка</a>
+    </h3>
+    <h2>
+    14 место
+    </h2>
+    <img class="trt" src="https://tradernet.ru/data/blogs/users/1030255/1586439708_1.jpg">
+    <h2>
+    Санкт-Петербург
+    </h2>
+    <h3>
+    Банк «Санкт-Петербург» — один из крупнейших банков Северо-Западного региона России и третий по величине банк Петербурга. Его история насчитывает более 20 лет и берет свое начало с системы специализированных государственных банков. На базе «Жилсоцбанка», входящего в систему, 3 октября 1990 года появилось акционерное общество «Ленбанк», годом позже переименованное в банк «Санкт-Петербург».
+    <a href="https://www.bspb.ru/">ссылка</a>
+    </h3>
+    <h2>
+    13 место
+    </h2>
+    </div>
+    <img class="photo1" src="https://cdn.discordapp.com/attachments/664877677991297045/806963450764066846/credit_vbrr.png">
+    <div>
+    <h2>
+    ВБРР
+    </h2>
+    </div>
+    <p>
+    <h3>
+    ВБРР создан в соответствии с постановлением Правительства РФ № 905 от 7 сентября 1995 года «О создании Всероссийского банка развития регионов». 27 марта 1996 года ВБРР был зарегистрирован Банком России и начал обслуживание клиентов.
+    Сегодня ВБРР — динамично развивающаяся кредитная организация, универсальное банковское учреждение, которое предоставляет своим клиентам полный комплекс финансовых услуг.
+    <a href="https://www.vbrr.ru/">ссылка</a>
+    </h3>
+    </p>
+    <h2>
+    12 место
+    </h2>
+    <p>
+    <img class="tin" src="https://dobro-bank.ru/wp-content/uploads/2018/12/tinkoff-bank-general-logo-6.png">
+    </p>
+    <h2>
+    Тинькофф
+    </h2>
+    <h3>
+    Тинькофф — онлайн-экосистема, основанная на финансовых и лайфстайл-услугах. Клиентами Тинькофф стали 12 млн человек по всей России.
+    Тинькофф — третий крупнейший банк страны по количеству активных клиентов.
+    «Тинькофф Банк» — полностью онлайн-банк: у него нет собственных отделений. Основной продукт для физических лиц — кредитные и дебетовые карты, а также вклады. Банк также предлагает выпуск кобрендовых карт, целевые кредиты на покупки в обычных и интернет-магазинах.
+    <a href="http://yabs.yandex.ru/count/WfqejI_zO6G2dHG0T28nFjDdUV1nNGK0P0CnUjmYO000000u109mffIkq8G9W06zjOu_Y07uXj6RLf01eBJlZSc0W802c06WjE-DIRW1ckh8jY300LpO0T2YZvK1u070qxMK0UW1I8W2XFHoc0A2YkC9e0BqvQW5s082y0ApZgxW29W3w84uyFe3-0Jeyok81UZpAv05-xgk4A05mh8Dg0NYb0km1UAK2xW5tBwK1C05m8cH7CW5mCEJ1xW60ia6GEQCkEzKhMi0Fv4OweGtYGQm1u20c2ou1xG6yGTi1WjRLhmJoe080j08X8A1WSJwijJ92hh-9SkZdE8_gWiGbKIgxp-H001ZrSBmwxe50DaBw0leyolsuhu1gGm25b_CCQFYl-WCemBW3OE0W4293ZqArwDmFVR0pBF4-vtLrckW3i24FTWE1Q4FsG-04AYFy1hp__y1W17o__y2eJS2U71sAa0_iHB2lIRtVNdfF_0I-183W1Co0gWJeOlZreUqm9eMu1FSlfG4e1JSlfG4g1JxkguGk8Ma_GNe58m2o1NOhE641D0Lk8Ma_GNO5S6AzkoZZxpyO_2W5j2GdO06oHRG5gBsuhu1WHUO5v3keoke5md05xG2s1V0X3sP6A0O5B0OpPABWGRG627u693tvfl6bPddIO0PiFIuuj2zaRaWa1a1e1cg0x0Pk1dI6H9vOM9pNtDbSdPbSYzoDJ0mBJFe6O320_0PWC83WHh__qCITs7Tmo40KjkOXAiKFycbIMHwGUHSDWBhpspzpPoAmY9GW_Sn7P85n8x4w8BVwWpSCcgG6DVJhOd0KzeoU0ylweL00ZxYVAVuZP7SChfr8K8vb0uwHlFi0X22Q7GCdzu3z0U3rOFJBgzVyrCQ8SG0~1?from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%82%D0%B8%D0%BD%D1%8C%D0%BA%D0%BE%D1%84%D1%84&etext=2202.zqRYHr7GG0vHoV9jtcKk1BtHfALHoIM2TpD2zv_ZSrNzeWtic3BtbnBhaXhicmN5.15db697aaac67ffac32571dbe3c5f002b9b2f858&baobab_event_id=kkydhvxjs8">ссылка</a>
+    </h3>
+    <h2>
+    11 место
+    </h2>
+    <img class="mcb" src="https://credit24.ru/wp-content/uploads/2021/01/mkb-bank.jpg" >
+    <h2>
+    МКБ
+    </h2>
+    <h3>
+    МОСКОВСКИЙ КРЕДИТНЫЙ БАНК является участником ведущих ассоциаций и объединений банковского сообщества и обладает всеми необходимыми лицензиями на осуществление банковской деятельности. Открытость бизнеса и устойчивые позиции позволили Банку в декабре 2004 года вступить в государственную систему страхования вкладов.
+    МОСКОВСКИЙ КРЕДИТНЫЙ БАНК входит в список 11 системно значимых банков, опубликованный Центральным банком Российской Федерации 13 сентября 2017 года.
+    <a href="http://yabs.yandex.ru/count/WgqejI_zO6G27HK0f2DAo5_euIdK1mK0P0CnrTmYO000000u109mZFdLuAG9W06Z_yH0Y07BrwhdKf01-ElbniU0W802c07uw-N6HxW1ekAlX2300LpO0SANs9C1u06-YlYJ0UW1kWA80eJqSg02_hG6s082y0ACYhYS3vW3wUapg0CA-T4D-0Ifd2A81QcS8f05_SFD0Q05hxWAg0NIsGYm1TBP2BW5lA0qm0Nryzi1o0MWz3Uu1WB91a3cZBZlLArh06-Rm5SPJOa6i0U0W9Wqk0Uq1l475OgGMghNeXE020JG28I2WO64lve3oGfJFKkYRkpeFweB413lNurlcm00cV4dzkkw1G3P2-WBgPmYy0i6Y0p2yjw-0QaCi6C09I2Aqh_e3AC2u0s3W810YGuz2jUZS3tsmCopnFkTrTPhe0x0X3tO3WMX3zaFW13XoPGQ6nd848Y00j0Gag2lN_WGy___0O0Hyl__0aAHCArao5G_iH9clgmwSOhfF_0I0gWJeOlZreUqm9eMu1Eye3IW5BoWDAWK_SFD0UWKZ0B85Q6sm-O3s1N1YlRieu-y_6Fme1RGa9s01iaMy3_G5iBothu1WHUO5u3droge5md05xG2s1V0X3tW5_3gaFi5-1VAjug11faOe1WIi1YOXek11j0O8VWOaFVccyQLcUT9W1cmzBZYqBsHkI2G6G6W6Qe3i1cu6Vy1qXaIUM5YSrzpPN9sPN8lSZKmC2qqw1c0mWFm6O320_WPahkJ784Q__-x89CGOAqX040Zc8Uh53L520sPoZVaNJOoNd3K2aik3OPtTVWku8LUdO5RHk5835Mb63dQW94uYhFTcVAKmIDuKIJm441q6Cdbebi7P-WSp8paEGDeWcPqu1yX78A8pkbmfax1rro_vgSqGeW1~1?from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D0%BA%D0%B1&etext=2202.ZiP4ybPCywwcO14JEtu6S2xob21kc3ZteGpuYWpudHg.929abb359db7373fdc5dab0247e2870a546a72d5&baobab_event_id=kkydl2zkyl">ссылка</a>
+    </h3>
+    <h2>
+    10 место
+    </h2>
+    <img class="rb" src="https://probankira.ru/wp-content/uploads/2020/06/1573892564_glavnaya-dlya-rosbanka-2.jpg">
+    <h3>
+    Росбанк — российский универсальный банк в составе международной финансовой группы Société Générale. Полное наименование — Публичное акционерное общество «Росбанк». Штаб-квартира находится в Москве. Включен Банком России в перечень 11 системно значимых кредитных организаций.
+    <a href="https://www.rosbank.ru/"> ссылка</a>
+    </h3>
+    <h2>
+    9 место
+    </h2>
+    <img class="ros" src="http://tochka48.ru/images/clients/bankrossia.jpg">
+    <h2>
+    Россия
+    </h2>
+    <h3>
+    «Россия» — универсальный кредитный институт с широко развитой сетью региональных подразделений. С 29 декабря 1991 г. имеет лицензию Банка России на проведение операций с денежными средствами граждан и предприятий в рублях и иностранной валюте. «Россия» внесен в реестр банков – участников системы обязательного страхования вкладов, является профессиональным игроком на рынке ценных бумаг. Осуществляет все виды банковских услуг, представленных на финансовом рынке.
+    <a href="https://bank-russia.com/kredit/"> ссылка</a>
+    </h3>
+    <h2>
+    8 место    
+    </h2>
+    <img class="rsb" src="https://resurs-agro.com/data/site/fintools/rosselkhozbank.png">
+    <h2>
+    РСБ
+    </h2>
+    <h3>
+    Акционерное общество «Российский Сельскохозяйственный банк»* — один из крупнейших банков в России. Созданный в 2000 году в целях развития национальной кредитно-финансовой системы агропромышленного сектора и сельских территорий Российской Федерации, сегодня это универсальный коммерческий банк, предоставляющий все виды банковских услуг и занимающий лидирующие позиции в финансировании агропромышленного комплекса России. 100% голосующих акций Банка принадлежат Российской Федерации в лице Федерального агентства по управлению государственным имуществом.
+    <a href="https://www.rsb.ru/">ссылка</a>
+    </h3>
+    <h2>
+    7 место
+    </h2>
+    <img class="rfz" src="https://zambank.ru/wp-content/uploads/2019/12/Ipoteka-s-gospodderzhkoj-dlya-semej-s-detmi-ot-Rajffajzenbank.jpg">
+    <h2>
+    Райфайзен
+    </h2>
+    <h3>
+    Райффайзенбанк – универсальная кредитная организация, предлагающая полный спектр услуг корпоративным и частным клиентам, резидентам и нерезидентам, в рублях и иностранной валюте. Банк обладает одной из лучших, среди российских банков, композиций рейтингов от международных рейтинговых агентств.
+    <a href="https://www.raiffeisen.ru/">ссылка</a>
+    </h3>
+    <h2>
+    6 место
+    </h2>
+    <img class="uc" src="https://abnews.ru/wp-content/uploads/2018/05/%D0%AE%D0%BD%D0%B8%D0%9A%D1%80%D0%B5%D0%B4%D0%B8%D1%82-%D0%91%D0%B0%D0%BD%D0%BA.jpg">
+    <h2>
+    Юникредит
+    </h2>
+    <h3>
+    UniCredit — простой успешный панъевропейский коммерческий банк с полностью интегрированным корпоративно-инвестиционным бизнесом, предоставляющий обширной растущей клиентской базе доступ к услугам своей широкой сети в Западной, Центральной и Восточной Европе.
+    <a href="https://www.unicreditbank.ru/">ссылка</a>
+    </h3>
+    <h2>
+    5 место
+    </h2>
+    <img class="open" src="http://startlifefinance.ru/d/407988_gnzd8rwr.jpg">
+    <h2>
+    Открытие
+    </h2>
+    <h3>
+    Сайт банка утверждает, что это универсальный банк, который развивает различные направления бизнеса: корпоративный, инвестиционный, розничный, МСБ и Private Banking. Входит в список системно значимых кредитных организаций, утвержденный Центральным Банком Российской Федерации.
+    <a href="https://www.open.ru/"> ссылка</a>
+    </h3>
+    <h2>
+    4 место
+    </h2>
+    <img class="gb" src="https://telegra.ph/file/5f7b61e934fc1e6e3ccf2.png">
+    <h2>
+    Газпромбанк
+    </h2>
+    <h3>
+    «Газпромбанк» (Акционерное общество) – один из крупнейших универсальных финансовых институтов России, предоставляющий широкий спектр банковских, финансовых, инвестиционных продуктов и услуг корпоративным и частным клиентам, финансовым институтам, институциональным и частным инвесторам. Банк входит в тройку крупнейших банков России по всем основным показателям и занимает третье место в списке банков Центральной и Восточной Европы по размеру собственного капитала.
+    <a href="http://yabs.yandex.ru/count/WgGejI_zO6a2rHG0z29M_cAcj1vnE0K0QGCn7jyYO000000uv9Cx0d20peEY8801skpnwVllu96-0OW1hRld_K-G0RpgpON6W8200fW1lEhDXKQu0PZicjqVm05Ss078vBSWu072eP0Ww042e0AmrGxO0WBm0fMhaCeFc0EsZXMknG_u1CxU7OW5pjuTa0Micj88e0MhYGce1UJ71x05vCS7k0N8dfa2m0NhhR09o0N0bh42k0O2oGP0veouxrIjQn0ZgRp4hzY91h07W82OFBW7j0Rn1mnFl9Ir4JAeW0W4a0Y6xem4q0Y4We61nDYg1yaASHg_4hCoxJ-g2n3mcX9Y8wa009-G3HdikWK0sGle2yxU7V0B1eWCmlBUlW6f3D3dStL8wS2_w0oJG8aEQvftdA8ZkS3CiyJxdTNMQw0Em8GzeG_P3u0GYwZE6Hi9W1cWhr_u4FF_0O0Hyly2eTdGrqUFRrC_iH9wuQHUIcdgF_0I-1830gWJeOlZreUqm9eMu1F8dfa2e1J8dfa2g1IicjBOfQBu1UWKZ0B85UAWxj3N1D0LgEcv_WNO5S6AzkoZZxpyO_2W5j2GdO06oHRmFz0MmlBUlW615vWNqUVUAQWN2S0Nj0BO5y24FPaOe1WHi1ZDaek11j0O8VWOaFVccyQLcUT9W1cmzBZYqBsHkI2G6G6W6Qe3i1cu6T8P4dbXOdDVSsLoTcLoBt8rC30jC-WPWC83y1c0mWFu6P7Np2216l__bsOpq6h08m1JsvYKgnG_oQKX4_s6fCj6Yefh3_2REIrMZN6Qi4_fa2mW5fRLWcrr1dF93sHmqusnQX9fkDK0k0PAUGhW4KmeiW11K44yN3i8ereR0cTOEPW7mdDQq0IJyS0-PGVe3zb8dNAYHWWy~1?from=&q=%D0%B3%D0%B0%D0%B7%D0%BF%D1%80%D0%BE%D0%BC%D0%B1%D0%B0%D0%BD%D0%BA&etext="> ссылка</a>
+    </h3>
+    <h2>
+    3 место
+    </h2>
+    <img class="alp" src="https://ministar.ru/upload/iblock/57f/57f73fa0d7abacc75fe8087442b10213.png">
+    <h2>
+    Альфа банк
+    </h2>
+    <h3>
+    Альфа-Банк, основанный в 1990 году, является универсальным банком, осуществляющим все основные виды банковских операций, представленных на рынке финансовых услуг, включая обслуживание частных и корпоративных клиентов, инвестиционный банковский бизнес, торговое финансирование.
+    <a href="https://alfabank.ru/"> ссылка</a>
+    </h3>
+    <h2>
+    2 место
+    </h2>
+    <img class="vtb" src="https://ajiotaj.ru/user/43274/images/article_36.jpg">
+    <h2>
+    ВТБ
+    </h2>
+    <h3>
+    Открытое акционерное общество (ОАО) Банк ВТБ — российский коммерческий банк, являющийся ключевым звеном банковской группы ВТБ и одним из крупнейших банков России. Учрежден в октябре 1990 года при участии Государственного банка РСФСР и министерства финансов РСФСР как Банк внешней торговли РФ (Внешторгбанк).
+    <a href="https://www.vtb.ru/"> ссылка</a>
+    </h3>
+    <h2>
+    1 место
+    </h2>
+    <img class="sber" src="https://storage.yandexcloud.net/master-conomy-media/media/uploads/AnalyticsArticle/0c465ad7ba65419eb51780de8203917b.jpeg">
+    <h2>
+    Сбербанк
+    </h2>
+    <h3>
+    ПАО «Сбербанк» — российский финансовый конгломерат, крупнейший транснациональный и универсальный банк России, Центральной и Восточной Европы. По итогам 2019 года у «Сбербанка» 96,2 млн активных частных клиентов и 2,6 млн активных корпоративных клиентов. СберБанк — крупнейший банк в России, Центральной и Восточной Европе, один из ведущих международных финансовых институтов
+<p>98,2 млн активных частных клиентов в России</p>
+<p>71,2 млн активных ежемесячных пользователей СберБанк Онлайн и СМС-банка</p>
+<p>278 тыс.
+сотрудников</p>
+<p>2,7 млн активных корпоративных клиентов в России</p>
+<p>14,2 тыс. отделений в России</p>
+<p>77 тыс. устройств самообслуживания в России</p>
+    <a href="https://online.sberbank.ru/">ссылка</a>
+    </h3>
+    </center>
+    </div>
+    <div class="side">
+    <button class="but" id="123">
+    тёмная тема
+    </button>
+    <div>
+    <h3>
+    Проектная записка—<a href="https://docs.google.com/document/d/1Q9AdrAhgaYz7yEkiqTnsMy0LDVleVgO9Xe28VjcMZZA/edit?usp=sharing">клик</a>
+    Презентация—<a href="https://docs.google.com/presentation/d/1_vX_uEaJOuQI3HhT5Vc-oiBS3BCBvv54caND3K0Nq44/edit?usp=sharing">клак</a>
+    </h3>
+    </div>
+    </div>
+    </div>
+    <div class="foot">
+    Прохоров Тимур
+    <p>
+    Любимов Дмитрий
+    </p>
+    <p>
+    ЛИТ 1533
+    </p>
+    </div>
+    </div>
+<script>
+const button = document.getElementById('123');
+button.onclick = function() {
+document.body.classList.toggle('theme-dark');
+}
+</script>
+</body>
+</html>
